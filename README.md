@@ -1,7 +1,10 @@
 # Layers Extraction from Draft Land Use Plan for Delhi 2041 (Work In Progress)
 Delhi Development Authority recently [released](https://dda.org.in/hotlinks.aspx) draft land use plan 2041 for Delhi and called for public comments. This repo has some of the geospatial layers that I was able to extract from the PDF map of the [draft plan](http://119.226.139.196/tendernotices_docs/aug2020/Draft%20Land%20Use%20Plan_public%20notice09062021.pdf). The commands used for extraction are in the [bat](https://github.com/rajesvariparasa/layers_draft_delhi_master_plan_2041/blob/main/ExtractLayers.bat) file. Command `ogrinfo draftplan.pdf > layers.txt` was used to obtain all the layer names from the PDF.
 
-## Layers fully extracted (QC pending)
+
+## Extraction status of the layers
+
+### Layers fully extracted (QC pending)
 1. BASE_MAP_2041_COMMERCIAL
 2. BASE_MAP_2041_INDUSTRIAL
 3. BASE_MAP_2041_RESIDENTIAL
@@ -19,14 +22,14 @@ Delhi Development Authority recently [released](https://dda.org.in/hotlinks.aspx
 15. ROAD_RAILWAY_METRO_LINES_RRTS
 16. ROAD_RAILWAY_METRO_LINES_UER_BUFFER
 
-## Layers partially extracted
+### Layers partially extracted
 1. BASE_MAP_2041_GREEN_BELT_WATERBODY_1
 2. BASE_MAP_2041_PSP_1
 3. BASE_MAP_2041_RECREATIONAL_1
 4. BASE_MAP_2041_TRANSPORTATION_1
 5. BASE_MAP_2041_UTILITY_1
 
-## Layers yet to be extracted
+### Layers yet to be extracted
 1. BASE_MAP_2041_GOVERNMENT
 2. EXTRA_LAYERS_Delhi_UC
 3. EXTRA_LAYERS_LDRA_VILLAGE
