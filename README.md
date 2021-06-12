@@ -4,7 +4,7 @@ Delhi Development Authority recently [released](https://dda.org.in/hotlinks.aspx
 
 ## Extraction status of the layers
 
-### Layers fully extracted (QC pending)
+#### Layers fully extracted (QC pending)
 1. BASE_MAP_2041_COMMERCIAL
 2. BASE_MAP_2041_INDUSTRIAL
 3. BASE_MAP_2041_RESIDENTIAL
@@ -22,14 +22,14 @@ Delhi Development Authority recently [released](https://dda.org.in/hotlinks.aspx
 15. ROAD_RAILWAY_METRO_LINES_RRTS
 16. ROAD_RAILWAY_METRO_LINES_UER_BUFFER
 
-### Layers partially extracted
+#### Layers partially extracted
 1. BASE_MAP_2041_GREEN_BELT_WATERBODY_1
 2. BASE_MAP_2041_PSP_1
 3. BASE_MAP_2041_RECREATIONAL_1
 4. BASE_MAP_2041_TRANSPORTATION_1
 5. BASE_MAP_2041_UTILITY_1
 
-### Layers yet to be extracted
+#### Layers yet to be extracted
 1. BASE_MAP_2041_GOVERNMENT
 2. EXTRA_LAYERS_Delhi_UC
 3. EXTRA_LAYERS_LDRA_VILLAGE
