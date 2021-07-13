@@ -9,6 +9,8 @@ When these layers were imported into QGIS, noticed that five of the extracted la
 
 An interactive tool to visualise layers extracted so far can be viewed [here](https://draftmpd41.github.io/) developed by [Nikhil VJ](https://nikhilvj.co.in/).
 
+![alt text](https://github.com/draftmpd41/draftmpd41.github.io/blob/main/screenshot.png "Interactive Snapshot")
+
 
 ## Extraction status of the layers
 
