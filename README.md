@@ -1,5 +1,7 @@
 Disclaimer: Please compare the data layers with the official PDF before using the data in your own project.
 
+Also check out https://draftmpd41.github.io/ for a quick interactive look at all the data layers shared here!
+
 # Layers Extraction from Draft Land Use Plan for Delhi 2041 (Work In Progress)
 Delhi Development Authority recently [released](https://dda.org.in/hotlinks.aspx) draft land use plan 2041 for Delhi and called for public comments. This repo has some of the geospatial layers that I was able to extract from the PDF map of the [draft plan](http://119.226.139.196/tendernotices_docs/aug2020/Draft%20Land%20Use%20Plan_public%20notice09062021.pdf). The commands used for extraction are in the [bat](https://github.com/rajesvariparasa/layers_draft_delhi_master_plan_2041/blob/main/ExtractLayers.bat) file. Command `ogrinfo draftplan.pdf > layers.txt` was used to obtain all the layer names from the PDF.
 
