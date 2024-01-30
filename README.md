@@ -1,6 +1,6 @@
 Disclaimer: Please compare the data layers with the official PDF before using the data in your own project.
 
-Also check out https://draftmpd41.github.io/ for a quick interactive look at all the data layers shared here!
+An interactive tool to visualise layers extracted so far can be viewed [here](https://draftmpd41.github.io/) developed by [Nikhil VJ](https://nikhilvj.co.in/).
 
 # Layers Extraction from Draft Land Use Plan for Delhi 2041 (Work In Progress)
 Delhi Development Authority recently [released](https://dda.org.in/hotlinks.aspx) draft land use plan 2041 for Delhi and called for public comments. This repo has some of the geospatial layers that I was able to extract from the PDF map of the [draft plan](http://119.226.139.196/tendernotices_docs/aug2020/Draft%20Land%20Use%20Plan_public%20notice09062021.pdf). The commands used for extraction are in the [bat](https://github.com/rajesvariparasa/layers_draft_delhi_master_plan_2041/blob/main/ExtractLayers.bat) file. Command `ogrinfo draftplan.pdf > layers.txt` was used to obtain all the layer names from the PDF.
@@ -9,8 +9,6 @@ Delhi Development Authority recently [released](https://dda.org.in/hotlinks.aspx
 When these layers were imported into QGIS, noticed that five of the extracted layers presented with a peculiar problem - all the geometries of these layers seemed distorted (image below). This could possibly be because of the 'shading' style used to represent the layer while making the PDF. The challenge was to eleminate the lines so the geometries underneath could be filtered in. Used the 'Select features using expression' option and used the expression `num_points($geometry)=2` to select all the shading lines. Then, inverted the selection to select all the neat geometries and exported them in a separate file.
 
 <center><img src="https://github.com/rajesvariparasa/layers_draft_delhi_master_plan_2041/blob/main/DistortedLayerCorrection.png" width="600"/></center>
-
-An interactive tool to visualise layers extracted so far can be viewed [here](https://draftmpd41.github.io/) developed by [Nikhil VJ](https://nikhilvj.co.in/).
 
 ![alt text](https://github.com/draftmpd41/draftmpd41.github.io/blob/main/screenshot.png "Interactive Snapshot")
 
